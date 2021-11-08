@@ -1,0 +1,593 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots of Create screen 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": "5%",
+        "paddingVertical": "2%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 40,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#509BC7",
+          "fontSize": 34.57142857142857,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Add Inventory
+    </Text>
+  </View>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "marginHorizontal": "5%",
+            "marginTop": "5%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 25.142857142857142,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Name
+        </Text>
+        <TextInput
+          onChangeText={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#e0e0e0",
+              "height": 70.71428571428572,
+              "paddingLeft": "5%",
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "marginHorizontal": "5%",
+            "marginTop": "5%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 25.142857142857142,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Total stock
+        </Text>
+        <TextInput
+          keyboardType="numeric"
+          onChangeText={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#e0e0e0",
+              "height": 70.71428571428572,
+              "paddingLeft": "5%",
+            }
+          }
+          value="0"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "marginHorizontal": "5%",
+            "marginTop": "5%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 25.142857142857142,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Price
+        </Text>
+        <TextInput
+          keyboardType="numeric"
+          onChangeText={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#e0e0e0",
+              "height": 70.71428571428572,
+              "paddingLeft": "5%",
+            }
+          }
+          value="0"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "marginHorizontal": "5%",
+            "marginTop": "5%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 25.142857142857142,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Description
+        </Text>
+        <TextInput
+          onChangeText={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#e0e0e0",
+              "height": 70.71428571428572,
+              "paddingLeft": "5%",
+            }
+          }
+        />
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#509BC7",
+            "justifyContent": "center",
+            "marginHorizontal": "5%",
+            "marginTop": "10%",
+            "opacity": 1,
+            "paddingVertical": "4%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 25.142857142857142,
+            }
+          }
+        >
+          Add Item
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;
+
+exports[`snapshots of Edit screen 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": "5%",
+        "paddingVertical": "2%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 40,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#509BC7",
+          "fontSize": 34.57142857142857,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Edit Inventory
+    </Text>
+  </View>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "marginHorizontal": "5%",
+            "marginTop": "5%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 25.142857142857142,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Name
+        </Text>
+        <TextInput
+          onChangeText={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#e0e0e0",
+              "height": 70.71428571428572,
+              "paddingLeft": "5%",
+            }
+          }
+          value="mockConstructor"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "marginHorizontal": "5%",
+            "marginTop": "5%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 25.142857142857142,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Total stock
+        </Text>
+        <TextInput
+          keyboardType="numeric"
+          onChangeText={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#e0e0e0",
+              "height": 70.71428571428572,
+              "paddingLeft": "5%",
+            }
+          }
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "marginHorizontal": "5%",
+            "marginTop": "5%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 25.142857142857142,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Price
+        </Text>
+        <TextInput
+          keyboardType="numeric"
+          onChangeText={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#e0e0e0",
+              "height": 70.71428571428572,
+              "paddingLeft": "5%",
+            }
+          }
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "marginHorizontal": "5%",
+            "marginTop": "5%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 25.142857142857142,
+              "fontWeight": "400",
+            }
+          }
+        >
+          Description
+        </Text>
+        <TextInput
+          onChangeText={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#e0e0e0",
+              "height": 70.71428571428572,
+              "paddingLeft": "5%",
+            }
+          }
+        />
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#509BC7",
+            "justifyContent": "center",
+            "marginHorizontal": "5%",
+            "marginTop": "10%",
+            "opacity": 1,
+            "paddingVertical": "4%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 25.142857142857142,
+            }
+          }
+        >
+          Add Item
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#e57373",
+            "justifyContent": "center",
+            "marginHorizontal": "5%",
+            "marginTop": "10%",
+            "opacity": 1,
+            "paddingVertical": "4%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 25.142857142857142,
+            }
+          }
+        >
+          Delete Item
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;
+
+exports[`snapshots of Home screen 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+  testID="2"
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": "5%",
+        "paddingVertical": "2%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#509BC7",
+          "fontSize": 39.285714285714285,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Bluemoon
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "flex": 1,
+          "justifyContent": "flex-start",
+          "paddingTop": "10%",
+        },
+      ]
+    }
+  >
+    <ActivityIndicator
+      color="#509BC7"
+      size={62.857142857142854}
+    />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#509BC7",
+        "borderRadius": 39.285714285714285,
+        "bottom": "5%",
+        "height": 78.57142857142857,
+        "justifyContent": "center",
+        "opacity": 1,
+        "position": "absolute",
+        "right": "8%",
+        "width": 78.57142857142857,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "white",
+            "fontSize": 40,
+          },
+          undefined,
+          Object {
+            "fontFamily": "Ionicons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</RNCSafeAreaView>
+`;
